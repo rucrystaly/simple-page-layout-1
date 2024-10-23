@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Центрируем контент по горизонтали */
+    align-items: center; /* Центрируем контент по вертикали */
+    flex-direction: column; /* Все элементы внутри body идут по вертикали */
+    min-height: 100vh; /* Высота body будет занимать весь экран */
+    height: 2330px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.main-header {
+    text-align: center;
+}
+
+button {
+    padding: 13px 10px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+button:hover {
+    background: #f0f0f0; /* Изменяем цвет фона при наведении */
+    border-color: #333333; /* Меняем цвет границы */
+}
+
+.main-block {
+    text-align: center;
+}
+
+
+.main-block-discription {
+    width: 504px;
+    height: 72px;
+    font-family: Noto Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    height: 72px;
+}
+
+.main-block-image {
+    background-color: #FFF0F0;
+}
+
+.block {
+    display: flex;
+    width: 600px;
+    height: 292px;
+    padding: 16px;
+    /* border: 2px solid blue; */
+    margin-top: 30px;
+}
+
+.image-block {
+    width: 284px;
+    height: 260px;
+    padding: 0px 12px 0px 12px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;    /* Вертикальное центрирование */
+    /* border: 2px solid red;  */
+
+}
+
+.text-block {
+    width: 284px;
+    height: 238px;
+    padding: 16px 12px 16px 12px;
+    /* border: 2px solid greenyellow; */
+}
+
+.finish-block {
+    width: 599px;
+    height: 140px;
+    padding: 0px 30px 0px 30px;
+    /* border: 2px solid red; */
+    margin-bottom: 40px;
+}
+
+.finish-text {
+    font-family: Apercu Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.7px;
+    text-align: left;
+}
+hr {
+    width: 600px;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 40px;
+}
+
+.footer {
+    width: 560px;
+    height: 285px;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid forestgreen; */
+    margin: 0 auto;
+}
+
+.footer-text-1 {
+    font-family: Noto Nastaliq Urdu;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.52px;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.52px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.logo-footer {
+    margin-top: 17px;
+}
+
+.social-items {
+    display: flex;
+    gap: 26px; /* Равное расстояние между элементами */
+    justify-content: center;
+}
+
+.social-item {
+    width: 24px;
+    height: 24px;
+    /* border: 2px solid red; */
+}
+
+.address {
+    margin-top: 25px;
+}
